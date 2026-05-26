@@ -1,5 +1,7 @@
+use crate::application::Application;
+
 pub mod application;
 
 pub fn start(){
-    application::start();
+    Application::new().run();
 }
